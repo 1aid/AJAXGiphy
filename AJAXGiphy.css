@@ -1,0 +1,55 @@
+#search-form {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+  
+  #search-term {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  #submit-button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #gif-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #gif-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+  }
+
+  #remove-gifs {
+    margin-left: 1323px;
+    padding: 10px;
+  }
+body {
+    background-color:rgb(77, 96, 103)
+}
+
+button, input[type="submit"] {
+    border-radius: 5px;
+  }
+
+input[type="text"] {
+    border-radius: 5px; /* Set border radius to 5 pixels */
+}
